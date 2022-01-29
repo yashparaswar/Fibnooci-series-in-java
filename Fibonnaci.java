@@ -34,24 +34,14 @@ public class Fibonnaci {
                 b=c;
         }
     }
-    public int fibonacci(int n)  {
-        if(n == 0)
-            return 0;
-        else if(n == 1)
-          return 1;
-       else
-          return fibonacci(n - 1) + fibonacci(n - 2);
-    }
+   
     
     public static void main(String args [])
     {
         Fibonnaci ob = new Fibonnaci();
         ob.getdata();
         ob.generate();
-        System.out.println("Enter The Range Of Number You Want Series");
-            Scanner s = new Scanner(System.in);
-            int p=s.nextInt();
-        System.out.println(ob.fibonacci(p));
+       
         
        
     
